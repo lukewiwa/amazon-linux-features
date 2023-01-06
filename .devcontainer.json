@@ -8,7 +8,8 @@
         }
     },
     "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/lukewiwa/features/shellcheck:0": {}
     },
     "remoteUser": "node",
     "postCreateCommand": "npm install -g @devcontainers/cli"

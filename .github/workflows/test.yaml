@@ -13,12 +13,11 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - oh-my-zsh
         baseImage:
-          - debian:latest
-          - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - amazonlinux:1
+          - amazonlinux:2
+
     steps:
       - uses: actions/checkout@v3
 
