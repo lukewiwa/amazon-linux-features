@@ -1,0 +1,17 @@
+{
+  "name": "hadolint (amazon linux)",
+  "id": "hadolint",
+  "version": "0.0.1",
+  "description": "Hadolint for amazon linux",
+  "options": {
+    "version": {
+      "type": "string",
+      "description": "version of hadolint to install",
+      "proposals": [
+        "latest",
+        "2.12.0"
+      ],
+      "default": "latest"
+    }
+  }
+}
