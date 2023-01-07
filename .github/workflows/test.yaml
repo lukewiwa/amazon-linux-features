@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - oh-my-zsh
+          - hadolint
         baseImage:
           - amazonlinux:1
           - amazonlinux:2
