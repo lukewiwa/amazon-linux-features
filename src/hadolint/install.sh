@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eux
+
 yum install -y curl
 
 architecture="$(uname -m)"
