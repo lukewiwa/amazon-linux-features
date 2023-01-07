@@ -17,6 +17,7 @@ jobs:
         baseImage:
           - amazonlinux:1
           - amazonlinux:2
+          - public.ecr.aws/lambda/python:3.9
 
     steps:
       - uses: actions/checkout@v3
