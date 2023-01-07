@@ -1,7 +1,7 @@
 {
   "name": "hadolint (amazon linux)",
   "id": "hadolint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hadolint for amazon linux",
   "options": {
     "version": {
@@ -12,6 +12,13 @@
         "2.12.0"
       ],
       "default": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "exiasr.hadolint"
+      ]
     }
   }
 }
